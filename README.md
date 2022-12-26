@@ -2,7 +2,7 @@
 
 Object reconition is a computer vision method of identifying the different classes or types of objects in an image and locating them using bounding boxes. This Repository contains programs of four Object Recognition Algorithms - RCNN (Region based Convolutional Neural Network), YOLO (You Only Look Once) - V3, V5 and V7 to run on COCO datasets.  
 
-Explanation of the algorithms and comparative analysis is given in the paper: [Comparative Evaluation of Different Object Recognition Algorithms([https://drive.google.com/file/d/1IRfbAnjQ-XJj_D3DSpzarw9LMUmhD_rO/view?usp=sharing])
+Explanation of the algorithms and comparative analysis is given in the paper: [Comparative Evaluation of Different Object Recognition Algorithms](https://drive.google.com/file/d/1IRfbAnjQ-XJj_D3DSpzarw9LMUmhD_rO/view?usp=sharing)
 
 When you are training the model on custom dataset, you also need to upload dataset images and annotations file to colab storage. For YOLO v3, yolov3.cfg file needs to be updated according to the customization needed. In YOLO v5 and v7, .yaml files need to be updated, which contains names of the classes along with class ids and path to the train, test and validation datasets.   
 
